@@ -325,6 +325,7 @@ body .sliderBtn_container {
   height: 3.875rem;
   background: rgba(14, 14, 14, 0.32);
   border-radius: 100%;
+  user-select: none;
 }
 body .sliderBtn_container .sliderBtn {
   display: flex;
@@ -737,7 +738,6 @@ body .sliderBtn_container .sliderBtn {
   width: 24.375rem;
   height: 12.5rem;
   margin: 0 auto;
-  outline: 1px solid red;
 }
 .technologies .technologies__container_slider .sliderBtn_container {
   position: absolute;
@@ -750,22 +750,21 @@ body .sliderBtn_container .sliderBtn {
   right: 0.375rem;
 }
 .technologies .technologies__container_slider .limiter {
-  outline: 1px solid green;
   width: 15.875rem;
   height: 12.5rem;
   margin: 0 auto;
 }
-.technologies .technologies__container_slider #technologiesSlider {
+.technologies .technologies__container_slider .limiter #technologiesSlider {
   height: 100%;
 }
-.technologies .technologies__container_slider #technologiesSlider .sliderItem {
+.technologies .technologies__container_slider .limiter #technologiesSlider .sliderItem {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.technologies .technologies__container_slider #technologiesSlider .sliderItem img {
+.technologies .technologies__container_slider .limiter #technologiesSlider .sliderItem img {
   display: block;
 }
 
@@ -774,6 +773,56 @@ body .sliderBtn_container .sliderBtn {
 }
 .howTo h2 {
   margin: 1rem 0 0 0;
+}
+.howTo .howTo__container_slider {
+  position: relative;
+  margin: 0 auto;
+  width: 24.375rem;
+  height: 26.06rem;
+}
+.howTo .howTo__container_slider .sliderBtn_container {
+  position: absolute;
+  top: 17.19rem;
+}
+.howTo .howTo__container_slider .sliderBtn_container.left {
+  left: 0.375rem;
+}
+.howTo .howTo__container_slider .sliderBtn_container.right {
+  right: 0.375rem;
+}
+.howTo .howTo__container_slider .limiter {
+  width: 15.88rem;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 2.31rem;
+}
+.howTo .howTo__container_slider .limiter #howToSlider {
+  height: 100%;
+}
+.howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container {
+  margin: 0 auto 2.31rem auto;
+  width: 12.375rem;
+  height: 12.375rem;
+  border-radius: 100%;
+  background: rgba(13, 13, 13, 0.32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container .how__num {
+  border-radius: 100%;
+  background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+  width: 9.9375rem;
+  height: 9.9375rem;
+  color: #343045;
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2.6rem;
+}
+.howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how h1 {
+  text-transform: capitalize;
+  line-height: 2rem;
 }
 
 @media screen and (min-width: 391px) and (max-width: 2000px) {

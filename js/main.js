@@ -48,14 +48,24 @@ $(document).ready(function () {
     nextArrow: $('.services .sliderBtn_container.right'),
   })
 
-    //!4 slick slider mobile SERVICES
+  //!4 slick slider mobile SERVICES
 
-    $('#technologiesSlider').slick({
-      dots: false,
-      infinite: true,
-      speed: 300,
-      arrows: true,
-      prevArrow: $('.technologies .sliderBtn_container.left'),
-      nextArrow: $('.technologies .sliderBtn_container.right'),
-    })
+  $('#technologiesSlider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    arrows: true,
+    prevArrow: $('.technologies .sliderBtn_container.left'),
+    nextArrow: $('.technologies .sliderBtn_container.right'),
+  })
+  //!4 slick slider mobile HOWTO
+
+  $('#howToSlider').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    arrows: true,
+    prevArrow: $('.howTo .sliderBtn_container.left'),
+    nextArrow: $('.howTo .sliderBtn_container.right'),
+  })
 })
