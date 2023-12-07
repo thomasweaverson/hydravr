@@ -49,6 +49,7 @@ body {
     background: rgba(14, 14, 14, 0.32);
     border-radius: 100%;
     user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
     .sliderBtn {
       display: flex;
@@ -68,8 +69,10 @@ body {
       background: linear-gradient(268deg, #c0b7e8 -0.6%, #8176af 98.31%);
 
       cursor: pointer;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
   }
+
 }
 
 .header__container {
@@ -328,6 +331,7 @@ body {
       width: 1.875rem;
       height: 1.875rem;
       cursor: pointer;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
     .contacts__sliderBtns.left {
       margin-left: 0.3125rem;
