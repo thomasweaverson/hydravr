@@ -69,3 +69,12 @@ $(document).ready(function () {
     nextArrow: $('.howTo .sliderBtn_container.right'),
   })
 })
+
+
+
+//todo temp form prevent default
+let submitBtn = document.getElementById('formSubmit')
+
+submitBtn.addEventListener('click', function(e) {
+e.preventDefault()
+})

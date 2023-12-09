@@ -288,6 +288,7 @@ template {
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -300,7 +301,6 @@ body {
   background-repeat: no-repeat;
   background-position: left top;
   width: 24.375rem;
-  height: 319.3125rem;
   margin: 0 auto;
 }
 body h1 {
@@ -326,7 +326,11 @@ body .sliderBtn_container {
   background: rgba(14, 14, 14, 0.32);
   border-radius: 100%;
   user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+body .sliderBtn_container:active {
+  transform: scale(0.98);
+  background: rgba(14, 14, 14, 0.5);
 }
 body .sliderBtn_container .sliderBtn {
   display: flex;
@@ -342,8 +346,6 @@ body .sliderBtn_container .sliderBtn {
   height: 2.75rem;
   border-radius: 100%;
   background: linear-gradient(268deg, #c0b7e8 -0.6%, #8176af 98.31%);
-  cursor: pointer;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .header__container {
@@ -356,7 +358,7 @@ body .sliderBtn_container .sliderBtn {
 .header__container .logo__container {
   line-height: 0.5;
 }
-.header__container .logo__container img:nth-child(2) {
+.header__container .logo__container:nth-child(2) {
   margin: 0 0 0.35rem;
 }
 .header__container .menu {
@@ -509,8 +511,8 @@ body .sliderBtn_container .sliderBtn {
 }
 .hero .photo__container img:last-of-type {
   position: absolute;
-  left: 0.375rem;
-  top: 0.5625rem;
+  left: 0.5rem;
+  top: 0.625rem;
 }
 .hero .hero__slogan {
   width: fit-content;
@@ -575,6 +577,9 @@ body .sliderBtn_container .sliderBtn {
   height: 1.875rem;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.contacts .contacts__container_slider .contacts__sliderBtns:active {
+  transform: scale(0.95);
 }
 .contacts .contacts__container_slider .contacts__sliderBtns.left {
   margin-left: 0.3125rem;
@@ -828,7 +833,162 @@ body .sliderBtn_container .sliderBtn {
   line-height: 2rem;
 }
 
-@media screen and (min-width: 391px) and (max-width: 2000px) {
+.joinForm .form__container {
+  width: 21.4375rem;
+  margin: 0 auto;
+  padding-top: 2.81rem;
+  padding-bottom: 4.06rem;
+  border-radius: 2.5rem;
+  background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.joinForm .form__container h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.joinForm .form__container .divider {
+  width: 9.625rem;
+  height: 0.0625rem;
+  background-color: rgba(192, 183, 232, 0.33);
+  margin: 1.31rem auto 1.19rem auto;
+}
+.joinForm .form__container h2 {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0;
+}
+.joinForm .form__container form {
+  margin-top: 2.25rem;
+}
+.joinForm .form__container form fieldset {
+  padding: 0;
+  margin: 0 auto 1.2rem auto;
+  width: 18.75rem;
+  border-radius: 2.5rem;
+  border: 0.125rem solid #fff;
+}
+.joinForm .form__container form fieldset legend {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-left: 1.2rem;
+  padding: 0 0.25rem;
+  text-transform: capitalize;
+}
+.joinForm .form__container form fieldset input {
+  width: 18.75rem;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0 0 0 1.5rem;
+  margin: 0 0 0 0;
+  font-size: 1.5rem;
+  position: relative;
+  bottom: 0.5rem;
+}
+.joinForm .form__container form fieldset input::placeholder {
+  color: #bbb;
+}
+.joinForm .form__container form fieldset input[type=email], .joinForm .form__container form fieldset input.subject {
+  font-size: 0.875rem;
+  bottom: 0.7rem;
+}
+.joinForm .form__container form textarea {
+  display: block;
+  margin: 0.5rem auto 3.25rem auto;
+  padding: 1rem 0 0 1.5rem;
+  width: 18.75rem;
+  height: 13.6875rem;
+  resize: none;
+  border-radius: 2.5rem;
+  border: 0.125rem solid #fff;
+  background-color: transparent;
+  color: #fff;
+  outline: none;
+  font-size: 0.875rem;
+}
+.joinForm .form__container form textarea::placeholder {
+  color: #bbb;
+}
+.joinForm .form__container form button {
+  display: block;
+  width: 18.25rem;
+  height: 3rem;
+  margin: 0 auto;
+  border: none;
+  border-radius: 2.5rem;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: #343045;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.joinForm .form__container form button:active {
+  transform: scale(0.985);
+}
+
+footer {
+  padding-top: 4.31rem;
+  background-image: url("./images/footer_bg.svg");
+  background-position: center top -0.875rem;
+  background-repeat: no-repeat;
+}
+footer .logo {
+  margin: 0 auto;
+  width: fit-content;
+}
+footer .logo img {
+  width: 11.5625rem;
+  height: 11.6875rem;
+  filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.25));
+}
+footer .social h1 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin: 2rem 0 1.8125rem 0;
+}
+footer .social .social__container {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 2.9375rem;
+}
+footer .social .social__container img {
+  cursor: pointer;
+}
+footer .social__btn {
+  display: block;
+  margin: 0 auto 3.31rem auto;
+  width: 18.4375rem;
+  height: 3.4375rem;
+  border: none;
+  border-radius: 2.5rem;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  color: #343045;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+footer .social__btn:active {
+  transform: scale(0.985);
+}
+footer .cellar p {
+  color: #fff;
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.11375rem;
+  line-height: 2.5rem;
+  margin-bottom: 4.935rem;
+}
+
+@media screen and (min-width: 391px) and (max-width: 2200px) {
   body {
     background-position: center top !important;
   }

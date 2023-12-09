@@ -50,7 +50,7 @@
           <span class="gradientText">dive</span> into the depths<br />of
           <span class="gradientText">virtual reality</span>
         </p>
-        <button class="hero__btn">build your world</button>
+        <button onclick="document.location='#form'" class="hero__btn">build your world</button>
       </section>
       <section class="contacts">
         <div class="contacts__container_slider">
@@ -106,7 +106,7 @@
           diam sit amet nisl suscipit adipiscing bibendum. Leo a diam
           sollicitudin tempor.
         </p>
-        <button class="about__btn">let's get in touch</button>
+        <button onclick="document.location='#form'" class="about__btn">let's get in touch</button>
       </section>
       <section class="services">
         <h1>why build</h1>
@@ -136,7 +136,7 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button class="services__btn">try it now</button>
+                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
               </div>
             </div>
             <div class="sliderItem">
@@ -150,7 +150,7 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button class="services__btn">try it now</button>
+                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
               </div>
             </div>
             <div class="sliderItem">
@@ -166,7 +166,7 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button class="services__btn">try it now</button>
+                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
               </div>
             </div>
             <div class="sliderItem">
@@ -182,7 +182,7 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button class="services__btn">try it now</button>
+                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
               </div>
             </div>
           </div>
@@ -286,8 +286,95 @@
           </div>
         </div>
       </section>
-      <section class="joinForm"></section>
+      <section id="form" class="joinForm">
+        <div class="form__container">
+          <h1>join hydra</h1>
+          <div class="divider"></div>
+          <h2>
+            let's build <br />
+            your vr experience
+          </h2>
+          <form action="#" method="post" target="_blank">
+            <fieldset>
+              <legend>first name</legend>
+              <input
+                type="text"
+                name="firstname"
+                placeholder="Thomas"
+                id="firstname"
+                required />
+            </fieldset>
+            <fieldset>
+              <legend>last name</legend>
+              <input
+                type="text"
+                name="lastname"
+                placeholder="Weaverson"
+                id="lastname" />
+            </fieldset>
+            <fieldset>
+              <legend>email</legend>
+              <input
+                type="email"
+                name="email"
+                placeholder="thomasweaverson@gmail.com"
+                id="email" />
+            </fieldset>
+            <fieldset>
+              <legend>phone number</legend>
+              <input
+                type="tel"
+                name="tel"
+                placeholder="+1 333 7777777"
+                id="tel" />
+            </fieldset>
+            <fieldset>
+              <legend>subject</legend>
+              <input
+                class="subject"
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                id="subject" />
+            </fieldset>
+
+            <textarea
+              name="comment"
+              placeholder="Tell Us Something"
+              id="comment"></textarea>
+
+            <button id="formSubmit" type="submit">send to hydra</button>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer__container">
+        <div class="logo">
+          <img src="images/logo.svg" alt="" />
+        </div>
+        <!-- some grid cells -->
+        <div class="social">
+          <h1>socialize with hydra</h1>
+          <div class="social__container">
+            <img src="images/social_facebook.svg" alt="" />
+            <img src="images/social_twitter.svg" alt="" />
+            <img src="images/social_linkedin.svg" alt="" />
+            <img src="images/social_youtube.svg" alt="" />
+            <img src="images/social_instagram.svg" alt="" />
+            <img src="images/social_pinterest.svg" alt="" />
+          </div>
+          <button onclick="document.location='#form'" class="social__btn">build your world</button>
+        </div>
+      </div>
+      <div class="divider"></div>
+      <div class="cellar">
+        <p>
+          2023 © HYDRA LANDING PAGE<br />
+          BY ZINE. E. FALOUTI<br />
+          ALL RIGHTS RESERVED
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
