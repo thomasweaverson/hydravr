@@ -560,6 +560,9 @@ body .sliderBtn_container .sliderBtn {
   text-transform: uppercase;
   cursor: pointer;
 }
+.hero .hero__btn:active {
+  transform: scale(0.985);
+}
 
 .contacts .contacts__container_slider {
   width: 21.7rem;
@@ -651,6 +654,9 @@ body .sliderBtn_container .sliderBtn {
   text-transform: uppercase;
   cursor: pointer;
 }
+.about .about__btn:active {
+  transform: scale(0.985);
+}
 
 .services h1 {
   margin: 0;
@@ -724,6 +730,9 @@ body .sliderBtn_container .sliderBtn {
   line-height: normal;
   text-transform: uppercase;
   cursor: pointer;
+}
+.services .services__container_slider #servicesSlider .services__btn:active {
+  transform: scale(0.985);
 }
 
 .technologies .technologies__header_container {

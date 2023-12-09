@@ -308,6 +308,10 @@ body {
     text-transform: uppercase;
 
     cursor: pointer;
+
+    &:active {
+      transform: scale(0.985);
+    }
   }
 }
 
@@ -419,6 +423,10 @@ body {
     text-transform: uppercase;
 
     cursor: pointer;
+
+    &:active {
+      transform: scale(0.985);
+    }
   }
 }
 
@@ -506,8 +514,11 @@ body {
         font-weight: 700;
         line-height: normal;
         text-transform: uppercase;
-
         cursor: pointer;
+
+        &:active {
+          transform: scale(0.985);
+        }
       }
     }
   }
