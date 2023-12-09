@@ -760,7 +760,8 @@ body .sliderBtn_container .sliderBtn {
 }
 .technologies .technologies__container_slider {
   position: relative;
-  width: 24.375rem;
+  width: 100vw;
+  max-width: 24.375rem;
   height: 12.5rem;
   margin: 0 auto;
 }
@@ -802,7 +803,8 @@ body .sliderBtn_container .sliderBtn {
 .howTo .howTo__container_slider {
   position: relative;
   margin: 0 auto;
-  width: 24.375rem;
+  width: 100vw;
+  max-width: 24.375rem;
   height: 26.06rem;
 }
 .howTo .howTo__container_slider .sliderBtn_container {
