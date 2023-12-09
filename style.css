@@ -289,12 +289,6 @@ template {
   box-sizing: border-box;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  outline: 1px solid red;
-}
-
-html {
-  overflow-x: hidden;
-  margin-right: calc(-1 * (100vw - 100%));
 }
 
 body {
@@ -306,10 +300,8 @@ body {
   background-image: url("./images/hero_bg.svg");
   background-repeat: no-repeat;
   background-position: left top;
-  width: 100vw;
-  max-width: 24.375rem;
+  width: 24.375rem;
   margin: 0 auto;
-  overflow-x: hidden;
 }
 body h1 {
   text-transform: uppercase;
@@ -760,8 +752,7 @@ body .sliderBtn_container .sliderBtn {
 }
 .technologies .technologies__container_slider {
   position: relative;
-  width: 100vw;
-  max-width: 24.375rem;
+  width: 24.375rem;
   height: 12.5rem;
   margin: 0 auto;
 }
@@ -803,8 +794,7 @@ body .sliderBtn_container .sliderBtn {
 .howTo .howTo__container_slider {
   position: relative;
   margin: 0 auto;
-  width: 100vw;
-  max-width: 24.375rem;
+  width: 24.375rem;
   height: 26.06rem;
 }
 .howTo .howTo__container_slider .sliderBtn_container {
