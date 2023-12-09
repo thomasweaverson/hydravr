@@ -302,6 +302,7 @@ body {
   background-position: left top;
   width: 24.375rem;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 body h1 {
   text-transform: uppercase;
