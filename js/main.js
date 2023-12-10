@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  //!4 hamburger
-  let menu = $('.menu')
+  //!4 hamburger mobile
+  let menu = $('.menu__mobile')
   let hamburgerBtn = $('.hamburger')
   hamburgerBtn.click(function () {
     $(this).toggleClass('open')
@@ -70,11 +70,9 @@ $(document).ready(function () {
   })
 })
 
-
-
 //todo temp form prevent default
 let submitBtn = document.getElementById('formSubmit')
 
-submitBtn.addEventListener('click', function(e) {
-e.preventDefault()
+submitBtn.addEventListener('click', function (e) {
+  e.preventDefault()
 })

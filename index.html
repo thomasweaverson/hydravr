@@ -19,11 +19,11 @@
       <div class="header__container">
         <div class="logo">
           <div class="logo__container">
-            <img src="images/logo.svg" alt="logo" />
-            <img src="images/title.svg" alt="title" />
+            <img class="logoImg" src="images/logo.svg" alt="logo" />
+            <img class="titleImg" src="images/title.svg" alt="title" />
           </div>
         </div>
-        <nav class="menu">
+        <nav class="menu__mobile">
           <div class="menu__links">
             <ul>
               <li><a href="#">about</a></li>
@@ -37,6 +37,22 @@
             <button class="menu__btns_join">join hydra</button>
           </div>
         </nav>
+        <nav class="menu__desktop">
+          <div class="menu__links">
+            <ul>
+              <li><a href="#">about</a></li>
+              <li><a href="#">services</a></li>
+              <li><a href="#">technologies</a></li>
+              <li><a href="#">how&nbsp;to</a></li>
+            </ul>
+          </div>
+          <div class="menu__btns">
+            <div class="wrapper">
+              <button class="menu__btns_contactUs">contact us</button>
+              <button class="menu__btns_join">join hydra</button>
+            </div>
+          </div>
+        </nav>
         <div class="hamburger"><span></span><span></span><span></span></div>
       </div>
     </header>
@@ -44,16 +60,39 @@
       <section class="hero">
         <div class="photo__container">
           <!-- <img src="images/hero__photo_bg.png" alt=""> -->
-          <img src="images/hero.png" alt="" />
+          <img class="heroImgMobile" src="images/hero.png" alt="girl in vr" />
+          <img
+            class="heroImgDesktop"
+            src="images/hero_desktop.png"
+            alt="girl in vr" />
+          <img
+            src="images/hero_bg_desktop.svg"
+            alt=""
+            class="hero__bg_desktop" />
         </div>
-        <p class="hero__slogan">
-          <span class="gradientText">dive</span> into the depths<br />of
-          <span class="gradientText">virtual reality</span>
-        </p>
-        <button onclick="document.location='#form'" class="hero__btn">build your world</button>
+        <div class="wrapper">
+          <p class="hero__slogan">
+            <span class="gradientText">dive</span> into the depths<br />of
+            <span class="gradientText">virtual reality</span>
+          </p>
+          <p class="hero__description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore nisl tincidunt eget.
+            Lectus mauris eros in vitae.
+          </p>
+          <div class="flex__wrapper">
+            <button onclick="document.location='#form'" class="hero__btn">
+              build your world
+            </button>
+            <img
+              class="hero__btn_arrow"
+              src="images/hero__btn_arrow.svg"
+              alt="" />
+          </div>
+        </div>
       </section>
       <section class="contacts">
-        <div class="contacts__container_slider">
+        <div class="contacts__containerSlider_mobile">
           <img
             class="contacts__sliderBtns left"
             src="images/contacts__sliderBtn_left.svg"
@@ -63,6 +102,7 @@
               <div class="contact">
                 <img src="images/contact__address-icon.svg" alt="gps icon" />
                 <div class="contact_description">
+                  <h3>pay us a visit</h3>
                   Union St, Seattle, WA 98101, United States
                 </div>
               </div>
@@ -71,7 +111,10 @@
               <div class="contact">
                 <div class="contact">
                   <img src="images/contact__tel-icon.svg" alt="tel icon" />
-                  <div class="contact_description tac">+1 (123) 111 11 10</div>
+                  <div class="contact_description tac">
+                    <h3>give us a call</h3>
+                    +1 (123) 111 11 10
+                  </div>
                 </div>
               </div>
             </div>
@@ -79,7 +122,10 @@
               <div class="contact">
                 <div class="contact">
                   <img src="images/contact__email-icon.svg" alt="email icon" />
-                  <div class="contact_description">Contact@HydraVTech.com</div>
+                  <div class="contact_description">
+                    <h3>send us a message</h3>
+                    Contact@HydraVTech.com
+                  </div>
                 </div>
               </div>
             </div>
@@ -89,11 +135,48 @@
             src="images/contacts__sliderBtn_right.svg"
             alt="right btn" />
         </div>
+        <div class="contacts__container_desktop">
+          <div class="contacts__grid">
+            <div class="gridItem">
+              <div class="contact">
+                <img src="images/contact__address-icon.svg" alt="gps icon" />
+                <div class="contact_description">
+                  <h3>pay us a visit</h3>
+                  <p>Union St, Seattle, WA 98101, United States</p>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="gridItem">
+              <div class="contact">
+                <div class="contact">
+                  <img src="images/contact__tel-icon.svg" alt="tel icon" />
+                  <div class="contact_description">
+                    <h3>give us a call</h3>
+                    <p>+1 (123) 111 11 10</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <div class="gridItem">
+              <div class="contact">
+                <div class="contact">
+                  <img src="images/contact__email-icon.svg" alt="email icon" />
+                  <div class="contact_description">
+                    <h3>send us a message</h3>
+                    <p>Contact@HydraVTech.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      <section class="about">
+      <section class="about__mobile">
         <h1>introduction</h1>
         <h2>to hydra vr</h2>
-        <img src="images/intro.png" alt="photo man in vr" />
+        <img src="images/about.png" alt="photo man in vr" />
         <p>
           Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis
           rhoncus urna neque viverra justo. Vivamus at augue eget arcu dictum.
@@ -106,7 +189,52 @@
           diam sit amet nisl suscipit adipiscing bibendum. Leo a diam
           sollicitudin tempor.
         </p>
-        <button onclick="document.location='#form'" class="about__btn">let's get in touch</button>
+        <button onclick="document.location='#form'" class="about__btn">
+          let's get in touch
+        </button>
+      </section>
+      <section class="about__desktop">
+        <div class="about__header_wrapper">
+          <div class="about__header">
+            <h1>introduction</h1>
+            <div class="flex__wrapper">
+              <h2>to hydra vr</h2>
+              <img src="images/about_arrow.svg" alt="" />
+            </div>
+          </div>
+          <div class="about__header_description">
+            Vitae sapien pellentesque habitant morbi tristique senectus et netus
+            et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
+            amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra
+            aliquet eget sit amet tellus. Ornare lectus sit amet est placerat
+            in. Lectus magna fringilla urna porttitor rhoncus vitae.
+          </div>
+        </div>
+        <div class="about__info_grid">
+          <img
+            class="about__info_img"
+            src="images/about.png"
+            alt="photo man in vr" />
+          <div class="about__info">
+            <h1>about</h1>
+            <h2>hydra vr</h2>
+            <p>
+              Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus
+              mattis rhoncus urna neque viverra justo. Vivamus at augue eget
+              arcu dictum. Ultrices gravida dictum fusce ut placerat orci.
+              Aenean et tortor at risus viverra adipiscing at in. Mattis aliquam
+              faucibus purus in massa. Est placerat in egestas erat imperdiet
+              sed. Consequat semper viverra nam libero justo laoreet sit amet.
+              Aliquam etiam erat velit scelerisque in dictum non consectetur a.
+              Laoreet sit amet cursus sit amet. Vel eros donec ac odio tempor
+              orci dapibus. Sem nulla pha retra diam sit amet nisl suscipit
+              adipiscing bibendum. Leo a diam sollicitudi n tempor.
+            </p>
+            <button onclick="document.location='#form'" class="about__btn">
+              let's get in touch
+            </button>
+          </div>
+        </div>
       </section>
       <section class="services">
         <h1>why build</h1>
@@ -136,7 +264,11 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
+                <button
+                  onclick="document.location='#form'"
+                  class="services__btn">
+                  try it now
+                </button>
               </div>
             </div>
             <div class="sliderItem">
@@ -150,7 +282,11 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
+                <button
+                  onclick="document.location='#form'"
+                  class="services__btn">
+                  try it now
+                </button>
               </div>
             </div>
             <div class="sliderItem">
@@ -166,7 +302,11 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
+                <button
+                  onclick="document.location='#form'"
+                  class="services__btn">
+                  try it now
+                </button>
               </div>
             </div>
             <div class="sliderItem">
@@ -182,7 +322,11 @@
                   Vitae sapien pellentesque habitant morbi nunc. Viverra aliquet
                   porttitor rhoncus libero justo laoreet sit amet vitae.
                 </p>
-                <button onclick="document.location='#form'"  class="services__btn">try it now</button>
+                <button
+                  onclick="document.location='#form'"
+                  class="services__btn">
+                  try it now
+                </button>
               </div>
             </div>
           </div>
@@ -364,7 +508,9 @@
             <img src="images/social_instagram.svg" alt="" />
             <img src="images/social_pinterest.svg" alt="" />
           </div>
-          <button onclick="document.location='#form'" class="social__btn">build your world</button>
+          <button onclick="document.location='#form'" class="social__btn">
+            build your world
+          </button>
         </div>
       </div>
       <div class="divider"></div>
