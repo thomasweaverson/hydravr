@@ -1,4 +1,4 @@
-@media screen and (max-width: 440px) and (orientation: portrait) {
+@media screen and (max-width: 440px) and (orientation: portrait) { 
   body {
     background-image: url('./images/hero_bg.svg');
     background-repeat: no-repeat;
@@ -390,7 +390,7 @@
     display: none;
   }
 
-  .services {
+  .services__mobile {
     h1 {
       margin: 0;
     }
@@ -484,7 +484,11 @@
     }
   }
 
-  .technologies {
+  .services__desktop {
+    display: none;
+  }
+
+  .technologies__mobile {
     .technologies__header_container {
       margin: 3.5rem auto 1.415625rem auto;
       padding-top: 3.1875rem;
@@ -545,7 +549,11 @@
     }
   }
 
-  .howTo {
+  .technologies__desktop {
+    display: none;
+  }
+
+  .howTo__mobile {
     h1 {
       margin: 0;
     }
@@ -621,6 +629,10 @@
     }
   }
 
+  .howTo__desktop {
+    display: none;
+  }
+
   .joinForm {
     .form__container {
       width: 21.4375rem;
@@ -688,7 +700,7 @@
             bottom: 0.5rem;
 
             &::placeholder {
-              color: #bbb;
+              color: #aaa;
             }
 
             &[type='email'],
@@ -717,7 +729,7 @@
 
           font-size: 0.875rem;
           &::placeholder {
-            color: #bbb;
+            color: #aaa;
           }
         }
 

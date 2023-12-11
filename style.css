@@ -730,13 +730,13 @@ body .sliderBtn_container .sliderBtn {
   .about__desktop {
     display: none;
   }
-  .services h1 {
+  .services__mobile h1 {
     margin: 0;
   }
-  .services h2 {
+  .services__mobile h2 {
     margin: 1rem 0 1.63rem 0;
   }
-  .services .services__container_slider {
+  .services__mobile .services__container_slider {
     position: relative;
     margin: 0 auto;
     width: 20rem;
@@ -744,23 +744,23 @@ body .sliderBtn_container .sliderBtn {
     border-radius: 2.5rem;
     background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
   }
-  .services .services__container_slider .sliderBtn_container {
+  .services__mobile .services__container_slider .sliderBtn_container {
     position: absolute;
     top: 13.44rem;
   }
-  .services .services__container_slider .sliderBtn_container.left {
+  .services__mobile .services__container_slider .sliderBtn_container.left {
     left: -1.8125rem;
   }
-  .services .services__container_slider .sliderBtn_container.right {
+  .services__mobile .services__container_slider .sliderBtn_container.right {
     right: -1.8125rem;
   }
-  .services .services__container_slider #servicesSlider {
+  .services__mobile .services__container_slider #servicesSlider {
     width: 15.875rem;
     height: 100%;
     margin: 0 auto;
     padding-top: 1.69rem;
   }
-  .services .services__container_slider #servicesSlider .services__servicePhoto_container {
+  .services__mobile .services__container_slider #servicesSlider .services__servicePhoto_container {
     width: 13.6875rem;
     height: 13.6875rem;
     background: rgba(14, 14, 14, 0.32);
@@ -770,24 +770,24 @@ body .sliderBtn_container .sliderBtn {
     align-items: center;
     margin: 0 auto 1.31rem auto;
   }
-  .services .services__container_slider #servicesSlider h1 {
+  .services__mobile .services__container_slider #servicesSlider h1 {
     font-size: 1.5rem;
     margin-bottom: 1.09rem;
   }
-  .services .services__container_slider #servicesSlider .divider {
+  .services__mobile .services__container_slider #servicesSlider .divider {
     width: 9.625rem;
     height: 0.0625rem;
     background-color: rgba(192, 183, 232, 0.33);
     margin: 0 auto 1.34rem auto;
   }
-  .services .services__container_slider #servicesSlider p {
+  .services__mobile .services__container_slider #servicesSlider p {
     margin: 0 0 2.19rem 0;
     color: #fff;
     font-size: 0.75rem;
     line-height: 1.19rem;
     font-weight: 400;
   }
-  .services .services__container_slider #servicesSlider .services__btn {
+  .services__mobile .services__container_slider #servicesSlider .services__btn {
     display: block;
     margin: 0 auto;
     width: 15.625rem;
@@ -803,90 +803,96 @@ body .sliderBtn_container .sliderBtn {
     text-transform: uppercase;
     cursor: pointer;
   }
-  .services .services__container_slider #servicesSlider .services__btn:active {
+  .services__mobile .services__container_slider #servicesSlider .services__btn:active {
     transform: scale(0.985);
   }
-  .technologies .technologies__header_container {
+  .services__desktop {
+    display: none;
+  }
+  .technologies__mobile .technologies__header_container {
     margin: 3.5rem auto 1.415625rem auto;
     padding-top: 3.1875rem;
     width: 21.75rem;
     height: 10.25rem;
     background-image: url("./images/technologies_header_bg.png");
   }
-  .technologies .technologies__header_container h1 {
+  .technologies__mobile .technologies__header_container h1 {
     font-size: 1rem;
     margin: 0 0 0.875rem 0;
   }
-  .technologies .technologies__header_container h2 {
+  .technologies__mobile .technologies__header_container h2 {
     margin: 0;
     font-size: 1.5rem;
   }
-  .technologies .technologies__container_slider {
+  .technologies__mobile .technologies__container_slider {
     position: relative;
     width: 24.375rem;
     height: 12.5rem;
     margin: 0 auto;
   }
-  .technologies .technologies__container_slider .sliderBtn_container {
+  .technologies__mobile .technologies__container_slider .sliderBtn_container {
     position: absolute;
     top: 4.3125rem;
   }
-  .technologies .technologies__container_slider .sliderBtn_container.left {
+  .technologies__mobile .technologies__container_slider .sliderBtn_container.left {
     left: 0.375rem;
   }
-  .technologies .technologies__container_slider .sliderBtn_container.right {
+  .technologies__mobile .technologies__container_slider .sliderBtn_container.right {
     right: 0.375rem;
   }
-  .technologies .technologies__container_slider .limiter {
+  .technologies__mobile .technologies__container_slider .limiter {
     width: 15.875rem;
     height: 12.5rem;
     margin: 0 auto;
   }
-  .technologies .technologies__container_slider .limiter #technologiesSlider {
+  .technologies__mobile .technologies__container_slider .limiter #technologiesSlider {
     height: 100%;
   }
-  .technologies .technologies__container_slider .limiter #technologiesSlider .sliderItem {
+  .technologies__mobile .technologies__container_slider .limiter #technologiesSlider .sliderItem {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .technologies .technologies__container_slider .limiter #technologiesSlider .sliderItem img {
+  .technologies__mobile .technologies__container_slider .limiter #technologiesSlider .sliderItem img {
     display: block;
   }
-  .howTo h1 {
+  .technologies__desktop {
+    display: none;
+  }
+  .howTo__mobile h1 {
     margin: 0;
   }
-  .howTo h2 {
+  .howTo__mobile h2 {
     margin: 1rem 0 0 0;
   }
-  .howTo .howTo__container_slider {
+  .howTo__mobile .howTo__container_slider {
     position: relative;
     margin: 0 auto;
     width: 24.375rem;
     height: 26.06rem;
   }
-  .howTo .howTo__container_slider .sliderBtn_container {
+  .howTo__mobile .howTo__container_slider .sliderBtn_container {
     position: absolute;
     top: 17.19rem;
   }
-  .howTo .howTo__container_slider .sliderBtn_container.left {
+  .howTo__mobile .howTo__container_slider .sliderBtn_container.left {
     left: 0.375rem;
   }
-  .howTo .howTo__container_slider .sliderBtn_container.right {
+  .howTo__mobile .howTo__container_slider .sliderBtn_container.right {
     right: 0.375rem;
   }
-  .howTo .howTo__container_slider .limiter {
+  .howTo__mobile .howTo__container_slider .limiter {
     width: 15.88rem;
     height: 100%;
     margin: 0 auto;
     padding-top: 2.31rem;
   }
-  .howTo .howTo__container_slider .limiter #howToSlider {
+  .howTo__mobile .howTo__container_slider .limiter #howToSlider {
     height: 100%;
   }
-  .howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container {
+  .howTo__mobile .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container {
     margin: 0 auto 2.31rem auto;
     width: 12.375rem;
     height: 12.375rem;
@@ -896,7 +902,7 @@ body .sliderBtn_container .sliderBtn {
     justify-content: center;
     align-items: center;
   }
-  .howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container .how__num {
+  .howTo__mobile .howTo__container_slider .limiter #howToSlider .sliderItem .how .how__num_container .how__num {
     border-radius: 100%;
     background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
     width: 9.9375rem;
@@ -907,9 +913,12 @@ body .sliderBtn_container .sliderBtn {
     text-align: center;
     padding-top: 2.6rem;
   }
-  .howTo .howTo__container_slider .limiter #howToSlider .sliderItem .how h1 {
+  .howTo__mobile .howTo__container_slider .limiter #howToSlider .sliderItem .how h1 {
     text-transform: capitalize;
     line-height: 2rem;
+  }
+  .howTo__desktop {
+    display: none;
   }
   .joinForm .form__container {
     width: 21.4375rem;
@@ -967,7 +976,7 @@ body .sliderBtn_container .sliderBtn {
     bottom: 0.5rem;
   }
   .joinForm .form__container form fieldset input::placeholder {
-    color: #bbb;
+    color: #aaa;
   }
   .joinForm .form__container form fieldset input[type=email], .joinForm .form__container form fieldset input.subject {
     font-size: 0.875rem;
@@ -988,7 +997,7 @@ body .sliderBtn_container .sliderBtn {
     font-size: 0.875rem;
   }
   .joinForm .form__container form textarea::placeholder {
-    color: #bbb;
+    color: #aaa;
   }
   .joinForm .form__container form button {
     display: block;
@@ -1076,7 +1085,7 @@ body .sliderBtn_container .sliderBtn {
     padding-top: 3.125rem;
   }
   header .header__container {
-    max-width: 80.875rem;
+    max-width: 81.875rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -1204,7 +1213,7 @@ body .sliderBtn_container .sliderBtn {
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) {
   .hero {
-    max-width: 80.875rem;
+    max-width: 81.875rem;
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -1298,7 +1307,7 @@ body .sliderBtn_container .sliderBtn {
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) {
   .contacts {
-    max-width: 80.875rem;
+    max-width: 81.875rem;
     margin: 0 auto;
     padding: 0 1rem;
   }
@@ -1427,10 +1436,10 @@ body .sliderBtn_container .sliderBtn {
     display: none;
   }
   .about__desktop {
-    max-width: 80.875rem;
+    max-width: 81.875rem;
     margin: 0 auto;
     padding: 0 1rem;
-    background-image: url("../images/about_bg.svg");
+    background-image: url("./images/about_bg.svg");
     background-repeat: no-repeat;
     background-position: top 213px center;
   }
@@ -1556,6 +1565,507 @@ body .sliderBtn_container .sliderBtn {
   .about__desktop .about__info_grid .about__info h2 {
     margin: 0 0 0.75rem 0;
     font-size: 1.75rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .services__mobile {
+    display: none;
+  }
+  .services__desktop {
+    position: relative;
+    max-width: 81.875rem;
+    padding: 0 1rem;
+    margin: 6.4375rem auto 7.625rem auto;
+  }
+  .services__desktop .services__bg {
+    position: absolute;
+    top: 277px;
+    z-index: -2;
+    right: -73px;
+  }
+  .services__desktop .services__header_wrapper {
+    display: grid;
+    grid-template-columns: 482px 138fr 689fr;
+    margin-bottom: 6.25rem;
+  }
+  .services__desktop .services__header_wrapper .services__header h1 {
+    margin: 0 0 0.625rem 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: left;
+  }
+  .services__desktop .services__header_wrapper .services__header .flex__wrapper {
+    display: flex;
+    gap: 1.4rem;
+  }
+  .services__desktop .services__header_wrapper .services__header .flex__wrapper h2 {
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: left;
+  }
+  .services__desktop .services__header_wrapper .services__header_description {
+    grid-column: 3/4;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.53125rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
+  .services__desktop .services__header_wrapper {
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+  .services__desktop .services__header_wrapper .services__header h1 {
+    text-align: center;
+  }
+  .services__desktop .services__header_wrapper .services__header .flex__wrapper {
+    display: block;
+  }
+  .services__desktop .services__header_wrapper .services__header .flex__wrapper h2 {
+    text-align: center;
+  }
+  .services__desktop .services__header_wrapper .services__header .flex__wrapper img {
+    display: none;
+  }
+  .services__desktop .services__header_wrapper .services__header_description {
+    grid-column: auto;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .services__desktop .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6875rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 1330px) {
+  .services__desktop .servicesGrid {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 1rem;
+  }
+  .services__desktop .servicesGrid .gridItem:nth-child(odd) {
+    justify-self: end;
+  }
+  .services__desktop .servicesGrid .gridItem:nth-child(even) {
+    justify-self: start;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .services__desktop .servicesGrid .gridItem {
+    width: 19.375rem;
+    height: 31.9375rem;
+    border-radius: 2.5rem;
+    background: radial-gradient(50% 50% at 50% 50%, #433d60 0%, #211e2e 100%);
+    padding: 1.4375rem 2.1875rem 0 1.5625rem;
+  }
+  .services__desktop .servicesGrid .gridItem .services__servicePhoto_container {
+    width: 13.6875rem;
+    height: 13.6875rem;
+    background: rgba(14, 14, 14, 0.32);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.3125rem auto;
+  }
+  .services__desktop .servicesGrid .gridItem h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.09rem;
+  }
+  .services__desktop .servicesGrid .gridItem .divider {
+    width: 9.625rem;
+    height: 0.0625rem;
+    background-color: rgba(192, 183, 232, 0.33);
+    margin: 0 auto 1.34rem auto;
+  }
+  .services__desktop .servicesGrid .gridItem p {
+    margin: 0 0 2.19rem 0;
+    color: #fff;
+    font-size: 0.75rem;
+    line-height: 1.19rem;
+    font-weight: 400;
+  }
+  .services__desktop .servicesGrid .gridItem .services__btn {
+    display: block;
+    margin: 0 auto;
+    width: 15.625rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #343045;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .services__desktop .servicesGrid .gridItem .services__btn:active {
+    transform: scale(0.985);
+  }
+  .technologies__mobile {
+    display: none;
+  }
+  .technologies__desktop {
+    max-width: 81.875rem;
+    margin: 0 auto 7.625rem auto;
+    padding: 0 1rem;
+  }
+  .technologies__desktop .technologies__header_container {
+    position: relative;
+    border-radius: 10rem;
+    padding: 6.75rem 0 6rem 0;
+    margin-bottom: 6.1875rem;
+    background-image: url("./images/technologies_header_bg_desktop.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+  }
+  .technologies__desktop .technologies__header_container .technologies__btn_container {
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 100%;
+    background: rgba(14, 14, 14, 0.32);
+    position: absolute;
+    bottom: -3.125rem;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+  .technologies__desktop .technologies__header_container .technologies__btn_container button {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 100%;
+    border: none;
+    background: linear-gradient(268deg, #c0b7e8 -0.6%, #8176af 98.31%);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+  }
+  .technologies__desktop .technologies__header_container .technologies__btn_container button:active {
+    transform: scale(0.985);
+  }
+  .technologies__desktop .technologies__header_container .technologies__btn_container button img {
+    position: relative;
+    top: -0.125rem;
+  }
+  .technologies__desktop .technologies__header_container h1 {
+    font-size: 2.25rem;
+    margin: 0 0 0.6875rem 0;
+  }
+  .technologies__desktop .technologies__header_container h2 {
+    font-size: 2.25rem;
+    margin: 0;
+  }
+  .technologies__desktop .technologiesGrid {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+  .technologies__desktop .technologiesGrid .gridItem {
+    height: fit-content;
+  }
+  .technologies__desktop .technologiesGrid .gridItem img {
+    display: block;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 1100px) {
+  .technologies__desktop .technologiesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 10.875rem);
+    justify-items: center;
+    gap: 1rem;
+    height: min-content;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .howTo__mobile {
+    display: none;
+  }
+  .howTo__desktop {
+    max-width: 81.875rem;
+    padding: 0 1rem;
+    margin: 0 auto 7rem auto;
+  }
+  .howTo__desktop .howTo__header_wrapper {
+    display: grid;
+    grid-template-columns: 540px 86fr 652fr;
+    margin-bottom: 6.25rem;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header h1 {
+    margin: 0 0 0.625rem 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: left;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header .flex__wrapper {
+    display: flex;
+    gap: 1rem;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header .flex__wrapper h2 {
+    margin: 0;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    text-align: left;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header_description {
+    grid-column: 3/4;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.53125rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
+  .howTo__desktop .howTo__header_wrapper {
+    grid-template-columns: 1fr;
+    margin-bottom: 3rem;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header h1 {
+    text-align: center;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header .flex__wrapper {
+    display: block;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header .flex__wrapper h2 {
+    text-align: center;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header .flex__wrapper img {
+    display: none;
+  }
+  .howTo__desktop .howTo__header_wrapper .howTo__header_description {
+    grid-column: auto;
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .howTo__desktop .howTo__container {
+    position: relative;
+    background-image: url("./images/howTo_bg.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 1030px) {
+  .howTo__desktop .howTo__container {
+    background-image: url("./images/howTo_bg_secondary.svg");
+    background-position: top 2rem center;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .howTo__desktop .howTo__container .howToFlex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how .how__num_container {
+    margin: 0 auto 2.31rem auto;
+    width: 12.375rem;
+    height: 12.375rem;
+    border-radius: 100%;
+    background: rgba(13, 13, 13, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how .how__num_container .how__num {
+    border-radius: 100%;
+    background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+    width: 9.9375rem;
+    height: 9.9375rem;
+    color: #343045;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2.6rem;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how h1 {
+    position: relative;
+    text-transform: capitalize;
+    line-height: 2rem;
+    text-align: start;
+    padding-left: 1.25rem;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how h1 img {
+    position: absolute;
+    left: -1.625rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 1030px) {
+  .howTo__desktop .howTo__container .howToFlex {
+    display: flex;
+    justify-content: space-around;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how .how__num_container {
+    margin: 0 auto 2rem auto;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background: rgba(13, 13, 13, 0.32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how .how__num_container .how__num {
+    border-radius: 100%;
+    background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
+    width: 6rem;
+    height: 6rem;
+    color: #343045;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 1.8rem;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how h1 {
+    font-size: 1rem;
+    position: relative;
+    text-transform: capitalize;
+    line-height: normal;
+    text-align: start;
+    padding-left: 1.25rem;
+  }
+  .howTo__desktop .howTo__container .howToFlex .flexItem .how h1 img {
+    width: 1.5rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .joinForm {
+    max-width: 81.875rem;
+    padding: 0 1rem;
+    margin: 0 auto 7rem auto;
+    outline: 1px solid skyblue;
+  }
+  .joinForm .form__container {
+    max-width: 79.6875rem;
+    margin: 0 auto;
+    padding-top: 5.62rem;
+    padding-bottom: 5.25rem;
+    border-radius: 6.25rem;
+    background: radial-gradient(50% 50% at 50% 50%, #403a5f 0%, #211e2e 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .joinForm .form__container h1 {
+    margin: 0;
+    font-size: 2.25rem;
+  }
+  .joinForm .form__container .divider {
+    width: 25.875rem;
+    height: 0.0625rem;
+    background-image: url("./images/form_divider.svg");
+    margin: 1.88rem auto 1.31rem auto;
+  }
+  .joinForm .form__container h2 {
+    text-transform: capitalize;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin: 0;
+  }
+  .joinForm .form__container h2 br {
+    display: none;
+  }
+  .joinForm .form__container form {
+    margin-top: 2.25rem;
+    padding: 0 2rem;
+  }
+  .joinForm .form__container form .form__grid {
+    max-width: 66.13rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4.5rem 4.5rem;
+    gap: 2rem 0.63rem;
+    margin: 0 auto 1.5625rem auto;
+  }
+  .joinForm .form__container form .form__grid fieldset {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 32.75rem;
+    border-radius: 2.5rem;
+    border: 0.125rem solid #fff;
+  }
+  .joinForm .form__container form fieldset {
+    padding: 0;
+    margin: 0 auto 2.0625rem auto;
+    width: 100%;
+    height: 4.5rem;
+    max-width: 66.125rem;
+    border-radius: 2.5rem;
+    border: 0.125rem solid #fff;
+  }
+  .joinForm .form__container form fieldset legend {
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-left: 1.2rem;
+    padding: 0 0.25rem;
+    text-transform: capitalize;
+  }
+  .joinForm .form__container form fieldset input {
+    width: 100%;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0 1.5rem 0 1.5rem;
+    margin: 0 0 0 0;
+    font-size: 1.5rem;
+    position: relative;
+    bottom: 0.2rem;
+  }
+  .joinForm .form__container form fieldset input::placeholder {
+    color: #aaa;
+  }
+  .joinForm .form__container form fieldset input[type=email] {
+    font-size: 1rem;
+    bottom: 0.4rem;
+  }
+  .joinForm .form__container form textarea {
+    display: block;
+    margin: 0 auto 3.19rem auto;
+    padding: 1rem 0 0 1.5rem;
+    width: 100%;
+    max-width: 66.125rem;
+    height: 13.6875rem;
+    resize: none;
+    border-radius: 2.5rem;
+    border: 0.125rem solid #fff;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    font-size: 1.5rem;
+  }
+  .joinForm .form__container form textarea::placeholder {
+    color: #aaa;
+  }
+  .joinForm .form__container form button {
+    display: block;
+    width: 13.375rem;
+    height: 3rem;
+    margin: 0 auto;
+    border: none;
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #343045;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .joinForm .form__container form button:active {
+    transform: scale(0.985);
   }
 }
 
