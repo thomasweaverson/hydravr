@@ -1016,36 +1016,36 @@ body .sliderBtn_container .sliderBtn {
   .joinForm .form__container form button:active {
     transform: scale(0.985);
   }
-  footer {
+  .footer__mobile {
     padding-top: 4.31rem;
     background-image: url("./images/footer_bg.svg");
     background-position: center top -0.875rem;
     background-repeat: no-repeat;
   }
-  footer .logo {
+  .footer__mobile .logo {
     margin: 0 auto;
     width: fit-content;
   }
-  footer .logo img {
+  .footer__mobile .logo img {
     width: 11.5625rem;
     height: 11.6875rem;
     filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.25));
   }
-  footer .social h1 {
+  .footer__mobile .social h1 {
     font-size: 1rem;
     line-height: 1.25rem;
     margin: 2rem 0 1.8125rem 0;
   }
-  footer .social .social__container {
+  .footer__mobile .social .social__container {
     display: flex;
     gap: 1.25rem;
     justify-content: center;
     margin-bottom: 2.9375rem;
   }
-  footer .social .social__container img {
+  .footer__mobile .social .social__container img {
     cursor: pointer;
   }
-  footer .social__btn {
+  .footer__mobile .social__btn {
     display: block;
     margin: 0 auto 3.31rem auto;
     width: 18.4375rem;
@@ -1061,10 +1061,10 @@ body .sliderBtn_container .sliderBtn {
     text-transform: uppercase;
     cursor: pointer;
   }
-  footer .social__btn:active {
+  .footer__mobile .social__btn:active {
     transform: scale(0.985);
   }
-  footer .cellar p {
+  .footer__mobile .cellar p {
     color: #fff;
     text-align: center;
     font-size: 0.875rem;
@@ -1073,6 +1073,9 @@ body .sliderBtn_container .sliderBtn {
     line-height: 2.5rem;
     margin-bottom: 4.935rem;
   }
+  .footer__desktop {
+    display: none;
+  }
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) {
   body {
@@ -1080,6 +1083,9 @@ body .sliderBtn_container .sliderBtn {
     max-width: 90rem;
     margin: 0 auto;
     overflow-x: hidden;
+    background-image: url("./images/footer_bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: bottom 10.75rem center;
   }
   header {
     padding-top: 3.125rem;
@@ -1328,7 +1334,7 @@ body .sliderBtn_container .sliderBtn {
   .contacts .contacts__container_desktop .contacts__grid {
     display: grid;
     width: 100%;
-    min-height: 7.28125rem;
+    min-height: 7.2813rem;
     grid-template-columns: 1fr 9px 1fr 9px 1fr;
   }
   .contacts .contacts__container_desktop .contacts__grid .gridItem {
@@ -1409,13 +1415,13 @@ body .sliderBtn_container .sliderBtn {
   }
   .contacts .contacts__containerSlider_mobile #contactsSlider .contact {
     display: flex;
-    height: 6.8096875rem;
+    height: 6.8097rem;
     width: 100%;
     align-items: center;
   }
   .contacts .contacts__containerSlider_mobile #contactsSlider .contact img {
     margin-left: 1rem;
-    margin-right: 0.59875rem;
+    margin-right: 0.5988rem;
   }
   .contacts .contacts__containerSlider_mobile #contactsSlider .contact .contact_description {
     color: #fff;
@@ -1471,7 +1477,7 @@ body .sliderBtn_container .sliderBtn {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.53125rem;
+    line-height: 1.5313rem;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
@@ -1526,7 +1532,7 @@ body .sliderBtn_container .sliderBtn {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.583333333rem;
+    line-height: 1.5833rem;
   }
   .about__desktop .about__info_grid .about__info .about__btn {
     display: block;
@@ -1611,7 +1617,7 @@ body .sliderBtn_container .sliderBtn {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.53125rem;
+    line-height: 1.5313rem;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
@@ -1826,7 +1832,7 @@ body .sliderBtn_container .sliderBtn {
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.53125rem;
+    line-height: 1.5313rem;
   }
 }
 @media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
@@ -1945,8 +1951,7 @@ body .sliderBtn_container .sliderBtn {
   .joinForm {
     max-width: 81.875rem;
     padding: 0 1rem;
-    margin: 0 auto 7rem auto;
-    outline: 1px solid skyblue;
+    margin: 0 auto 7.6563rem auto;
   }
   .joinForm .form__container {
     max-width: 79.6875rem;
@@ -2066,6 +2071,128 @@ body .sliderBtn_container .sliderBtn {
   }
   .joinForm .form__container form button:active {
     transform: scale(0.985);
+  }
+  .footer__desktop {
+    max-width: 81.875rem;
+    padding: 0 1rem;
+    margin: 0 auto 0 auto;
+  }
+  .footer__desktop .footer__container .footer__grid {
+    display: grid;
+    grid-template-columns: 285fr 6px 313fr 6px 279fr 6px 381fr;
+  }
+  .footer__desktop .footer__container .footer__grid .logo {
+    max-width: 11.5625rem;
+    padding-right: 0.5rem;
+  }
+  .footer__desktop .footer__container .footer__grid .logo img {
+    width: 100%;
+    filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.25));
+  }
+  .footer__desktop .footer__container .footer__grid .footer__gridDivider {
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/footer__grid_divider_bg.svg");
+    background-repeat: no-repeat;
+  }
+  .footer__desktop .footer__container .footer__grid .links,
+  .footer__desktop .footer__container .footer__grid .links__popup {
+    justify-self: center;
+    padding: 0 0.5rem;
+  }
+  .footer__desktop .footer__container .footer__grid .links ul,
+  .footer__desktop .footer__container .footer__grid .links__popup ul {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+  }
+  .footer__desktop .footer__container .footer__grid .links ul li,
+  .footer__desktop .footer__container .footer__grid .links__popup ul li {
+    list-style-type: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 1.6875rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
+  .footer__desktop .footer__container .footer__grid .links ul li,
+  .footer__desktop .footer__container .footer__grid .links__popup ul li {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .footer__desktop .footer__container .footer__grid .links ul li a,
+  .footer__desktop .footer__container .footer__grid .links__popup ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .footer__desktop .footer__container .footer__grid .social {
+    padding-left: 0.5rem;
+    width: 100%;
+    max-width: 18.75rem;
+    justify-self: center;
+  }
+  .footer__desktop .footer__container .footer__grid .social h1 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin: 0 0 2.375rem 0;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) and (min-width: 720px) and (max-width: 900px) {
+  .footer__desktop .footer__container .footer__grid .social h1 {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 2200px) {
+  .footer__desktop .footer__container .footer__grid .social .social__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.0625rem;
+  }
+  .footer__desktop .footer__container .footer__grid .social .social__container img {
+    cursor: pointer;
+  }
+  .footer__desktop .footer__container .footer__grid .social .social__btn {
+    display: block;
+    width: 13.375rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2.5rem;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    color: #343045;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .footer__desktop .footer__container .footer__grid .social .social__btn:active {
+    transform: scale(0.985);
+  }
+  .footer__desktop .divider {
+    margin: 3.375rem 0 3.0625rem 0;
+    height: 1px;
+    background-image: url("./images/footer__cellar_divider.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+  }
+  .footer__desktop .cellar p {
+    color: #fff;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.82px;
+    text-align: center;
+    margin: 0 0 3.625rem 0;
+  }
+  .footer__mobile {
+    display: none;
   }
 }
 

@@ -758,7 +758,7 @@
     }
   }
 
-  footer {
+  .footer__mobile {
     padding-top: 4.31rem;
 
     background-image: url('./images/footer_bg.svg');
@@ -828,5 +828,8 @@
         margin-bottom: 4.935rem;
       }
     }
+  }
+  .footer__desktop {
+    display: none;
   }
 }
