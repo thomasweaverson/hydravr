@@ -26,30 +26,30 @@
         <nav class="menu__mobile">
           <div class="menu__links">
             <ul>
-              <li><a href="#">about</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">technologies</a></li>
-              <li><a href="#">how to</a></li>
+              <li><a href="#about__mobile">about</a></li>
+              <li><a href="#services__mobile">services</a></li>
+              <li><a href="#technologies__mobile">technologies</a></li>
+              <li><a href="#howTo__mobile">how to</a></li>
             </ul>
           </div>
           <div class="menu__btns">
-            <button class="menu__btns_contactUs">contact us</button>
-            <button class="menu__btns_join">join hydra</button>
+            <button id="menu__mobile_btnContactUs" class="menu__btns_contactUs">contact us</button>
+            <button id="menu__mobile_btnJoinHydra" class="menu__btns_join">join hydra</button>
           </div>
         </nav>
         <nav class="menu__desktop">
           <div class="menu__links">
             <ul>
-              <li><a href="#">about</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">technologies</a></li>
-              <li><a href="#">how&nbsp;to</a></li>
+              <li><a href="#about__desktop">about</a></li>
+              <li><a href="#services__desktop">services</a></li>
+              <li><a href="#technologies__desktop">technologies</a></li>
+              <li><a href="#howTo__desktop">how&nbsp;to</a></li>
             </ul>
           </div>
           <div class="menu__btns">
             <div class="wrapper">
-              <button class="menu__btns_contactUs">contact us</button>
-              <button class="menu__btns_join">join hydra</button>
+              <button id="menu__desktop_btnContactUs" class="menu__btns_contactUs">contact us</button>
+              <button id="menu__desktop_btnJoinHydra" class="menu__btns_join">join hydra</button>
             </div>
           </div>
         </nav>
@@ -91,7 +91,7 @@
           </div>
         </div>
       </section>
-      <section class="contacts">
+      <section id="contacts" class="contacts">
         <div class="contacts__containerSlider_mobile">
           <img
             class="contacts__sliderBtns left"
@@ -113,7 +113,7 @@
                   <img src="images/contact__tel-icon.svg" alt="tel icon" />
                   <div class="contact_description tac">
                     <h3>give us a call</h3>
-                    +1 (123) 111 11 10
+                    <a href="tel:+11231111110">+1 (123) 111 11 10</a>
                   </div>
                 </div>
               </div>
@@ -124,7 +124,7 @@
                   <img src="images/contact__email-icon.svg" alt="email icon" />
                   <div class="contact_description">
                     <h3>send us a message</h3>
-                    Contact@HydraVTech.com
+                    <a href="mailto:contact@hydravtech.com">Contact@HydraVTech.com</a>
                   </div>
                 </div>
               </div>
@@ -153,7 +153,7 @@
                   <img src="images/contact__tel-icon.svg" alt="tel icon" />
                   <div class="contact_description">
                     <h3>give us a call</h3>
-                    <p>+1 (123) 111 11 10</p>
+                    <p><a href="tel:+11231111110">+1 (123) 111 11 10</a></p>
                   </div>
                 </div>
               </div>
@@ -165,7 +165,7 @@
                   <img src="images/contact__email-icon.svg" alt="email icon" />
                   <div class="contact_description">
                     <h3>send us a message</h3>
-                    <p>Contact@HydraVTech.com</p>
+                    <p><a href="mailto:contact@hydravtech.com">Contact@HydraVTech.com</a></p>
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@
           </div>
         </div>
       </section>
-      <section class="about__mobile">
+      <section id="about__mobile" class="about__mobile">
         <h1>introduction</h1>
         <h2>to hydra vr</h2>
         <img src="images/about.png" alt="photo man in vr" />
@@ -193,7 +193,7 @@
           let's get in touch
         </button>
       </section>
-      <section class="about__desktop">
+      <section id="about__desktop" class="about__desktop">
         <div class="about__header_wrapper">
           <div class="about__header">
             <h1>introduction</h1>
@@ -236,7 +236,7 @@
           </div>
         </div>
       </section>
-      <section class="services__mobile">
+      <section id="services__mobile" class="services__mobile">
         <h1>why build</h1>
         <h2>with hydra vr?</h2>
         <div class="services__container_slider">
@@ -332,7 +332,7 @@
           </div>
         </div>
       </section>
-      <section class="services__desktop">
+      <section id="services__desktop" class="services__desktop">
         <img class="services__bg" src="images/services_bg.svg" alt="" />
         <div class="services__header_wrapper">
           <div class="services__header">
@@ -423,7 +423,7 @@
           </div>
         </div>
       </section>
-      <section class="technologies__mobile">
+      <section id="technologies__mobile" class="technologies__mobile">
         <div class="technologies__header_container">
           <h1>technologies & hardware</h1>
           <h2>used by hydra vr</h2>
@@ -457,7 +457,7 @@
           </div>
         </div>
       </section>
-      <section class="technologies__desktop">
+      <section id="technologies__desktop" class="technologies__desktop">
         <div class="technologies__header_container">
           <h1>technologies & hardware</h1>
           <h2>used by hydra vr</h2>
@@ -482,7 +482,7 @@
           </div>
         </div>
       </section>
-      <section class="howTo__mobile">
+      <section id="howTo__mobile" class="howTo__mobile">
         <h1>how we build</h1>
         <h2>with hydra VR?</h2>
         <div class="howTo__container_slider">
@@ -547,7 +547,7 @@
         </div>
       </section>
 
-      <section class="howTo__desktop">
+      <section id="howTo__desktop" class="howTo__desktop">
         <div class="howTo__header_wrapper">
           <div class="howTo__header">
             <h1>how we build</h1>

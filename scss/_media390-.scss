@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     background-position: left top;
 
-    width: 24.375rem;
+    width: 23.4375rem;
     margin: 0 auto;
 
     h1 {
@@ -328,6 +328,11 @@
             font-size: 0.875rem;
             line-height: 1.3rem;
             flex-grow: 1;
+
+            a {
+              text-decoration: none;
+              color: #fff;
+            }
           }
 
           .contact_description.tac {
@@ -413,10 +418,10 @@
         position: absolute;
         top: 13.44rem;
         &.left {
-          left: -1.8125rem;
+          left: -1.6875rem;
         }
         &.right {
-          right: -1.8125rem;
+          right: -1.6875rem;
         }
       }
 
@@ -509,7 +514,7 @@
     .technologies__container_slider {
       position: relative;
 
-      width: 24.375rem;
+      width: 23.4375rem;
       // width: 100vw;
       // max-width: 24.375rem;
       height: 12.5rem;
@@ -565,7 +570,7 @@
       position: relative;
       margin: 0 auto;
 
-      width: 24.375rem;
+      width: 23.4375rem;
       // width: 100vw;
       // max-width: 24.375rem;
       height: 26.06rem;

@@ -70,6 +70,34 @@ $(document).ready(function () {
   })
 })
 
+
+//!btn onclick scrolling START
+let sectionContacts = document.getElementById('contacts')
+let form = document.getElementById('form')
+
+let menuDesktopBtnContactUs = document.getElementById('menu__desktop_btnContactUs')
+let menuDesktopBtnJoinHydra = document.getElementById('menu__desktop_btnJoinHydra')
+
+let menuMobileBtnContactUs = document.getElementById('menu__mobile_btnContactUs')
+let menuMobileBtnJoinHydra = document.getElementById('menu__mobile_btnJoinHydra')
+
+function scrollToAnchor(anchorElement) {
+  anchorElement.scrollIntoView({block: "start", behavior: "smooth"})
+}
+
+menuDesktopBtnContactUs.addEventListener("click", function () {
+  scrollToAnchor(sectionContacts)});
+menuMobileBtnContactUs.addEventListener("click", function () {
+  scrollToAnchor(sectionContacts)});
+
+  menuDesktopBtnJoinHydra.addEventListener("click", function () {
+    scrollToAnchor(form)});
+  menuMobileBtnJoinHydra.addEventListener("click", function () {
+    scrollToAnchor(form)});
+
+
+//!btn onclick scrolling END
+
 //todo temp form prevent default
 let submitBtn = document.getElementById('formSubmit')
 

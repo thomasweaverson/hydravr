@@ -398,7 +398,7 @@ body .sliderBtn_container .sliderBtn {
     background-image: url("./images/hero_bg.svg");
     background-repeat: no-repeat;
     background-position: left top;
-    width: 24.375rem;
+    width: 23.4375rem;
     margin: 0 auto;
   }
   body h1 {
@@ -684,6 +684,10 @@ body .sliderBtn_container .sliderBtn {
   .contacts .contacts__containerSlider_mobile #contactsSlider .contact .contact_description h3 {
     display: none;
   }
+  .contacts .contacts__containerSlider_mobile #contactsSlider .contact .contact_description a {
+    text-decoration: none;
+    color: #fff;
+  }
   .contacts .contacts__containerSlider_mobile #contactsSlider .contact .contact_description.tac {
     text-align: center;
   }
@@ -749,10 +753,10 @@ body .sliderBtn_container .sliderBtn {
     top: 13.44rem;
   }
   .services__mobile .services__container_slider .sliderBtn_container.left {
-    left: -1.8125rem;
+    left: -1.6875rem;
   }
   .services__mobile .services__container_slider .sliderBtn_container.right {
-    right: -1.8125rem;
+    right: -1.6875rem;
   }
   .services__mobile .services__container_slider #servicesSlider {
     width: 15.875rem;
@@ -826,7 +830,7 @@ body .sliderBtn_container .sliderBtn {
   }
   .technologies__mobile .technologies__container_slider {
     position: relative;
-    width: 24.375rem;
+    width: 23.4375rem;
     height: 12.5rem;
     margin: 0 auto;
   }
@@ -870,7 +874,7 @@ body .sliderBtn_container .sliderBtn {
   .howTo__mobile .howTo__container_slider {
     position: relative;
     margin: 0 auto;
-    width: 24.375rem;
+    width: 23.4375rem;
     height: 26.06rem;
   }
   .howTo__mobile .howTo__container_slider .sliderBtn_container {
@@ -1357,6 +1361,10 @@ body .sliderBtn_container .sliderBtn {
     font-size: 0.875rem;
     font-weight: 400;
     margin: 0;
+  }
+  .contacts .contacts__container_desktop .contacts__grid .gridItem .contact .contact_description p a {
+    text-decoration: none;
+    color: #fff;
   }
   .contacts .contacts__container_desktop .contacts__grid .divider {
     background-color: rgba(192, 183, 232, 0.33);
