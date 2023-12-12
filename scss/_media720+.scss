@@ -414,6 +414,10 @@
               font-size: 0.875rem;
               line-height: 1.3rem;
               flex-grow: 1;
+              a {
+                text-decoration: none;
+                color: #fff;
+              }
             }
 
             .contact_description.tac {
