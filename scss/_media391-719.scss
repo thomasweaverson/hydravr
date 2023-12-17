@@ -1,6 +1,6 @@
 @media screen and (min-width: 391px) and (max-width: 719px) and (orientation: portrait) {
   body {
-    background-image: url('../images/hero_bg_medium.svg');
+    background-image: url("../images/hero_bg_medium.svg");
     background-repeat: no-repeat;
     background-position: center top -10rem;
 
@@ -279,11 +279,7 @@
       align-items: center;
 
       border-radius: 5.625rem;
-      background: radial-gradient(
-        50% 150% at 50% 54%,
-        rgba(58, 52, 86, 0.95) 0%,
-        #211e2e 100%
-      );
+      background: radial-gradient(50% 150% at 50% 54%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
       box-shadow: 0px 0.25rem 0.25rem 0px rgba(192, 183, 232, 0.01);
 
       .contacts__sliderBtns {
@@ -504,7 +500,7 @@
       width: 85vw; // 612x113
       border-radius: 6rem;
       height: 10rem;
-      background-image: url('../images/technologies_header_bg_medium.png');
+      background-image: url("../images/technologies_header_bg_medium.png");
       background-repeat: no-repeat;
       background-position: top -20px center;
       //   @media screen and (max-width: 580px) {
@@ -635,11 +631,7 @@
 
                 .how__num {
                   border-radius: 100%;
-                  background: linear-gradient(
-                    251deg,
-                    #c0b7e8 12.87%,
-                    #8176af 89.33%
-                  );
+                  background: linear-gradient(251deg, #c0b7e8 12.87%, #8176af 89.33%);
                   width: 9.9375rem;
                   height: 9.9375rem;
                   color: #343045;
@@ -733,7 +725,7 @@
               color: #aaa;
             }
 
-            &[type='email'],
+            &[type="email"],
             &.subject {
               font-size: 0.875rem;
               bottom: 0.7rem;
@@ -791,7 +783,7 @@
   .footer__mobile {
     padding-top: 4.31rem;
 
-    background-image: url('./images/footer_bg.svg');
+    background-image: url("../images/footer_bg.svg");
     background-position: center top -0.875rem;
     background-repeat: no-repeat;
 

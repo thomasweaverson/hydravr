@@ -1,6 +1,6 @@
 @media screen and (max-width: 390px) and (orientation: portrait) { 
   body {
-    background-image: url('./images/hero_bg.svg');
+    background-image: url('../images/hero_bg.svg');
     background-repeat: no-repeat;
     background-position: left top;
 
@@ -499,7 +499,7 @@
       padding-top: 3.1875rem;
       width: 21.75rem;
       height: 10.25rem;
-      background-image: url('./images/technologies_header_bg.png');
+      background-image: url('../images/technologies_header_bg.png');
 
       h1 {
         font-size: 1rem;
@@ -766,7 +766,7 @@
   .footer__mobile {
     padding-top: 4.31rem;
 
-    background-image: url('./images/footer_bg.svg');
+    background-image: url('../images/footer_bg.svg');
     background-position: center top -0.875rem;
     background-repeat: no-repeat;
 
